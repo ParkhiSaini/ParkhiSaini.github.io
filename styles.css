@@ -36,15 +36,16 @@ body{
     left: 0px;
     top: 0px;
     background: linear-gradient(116.82deg, #192586 45.64%, #C6CBEC 100%);
+    border-radius:0px 0px 30px 30px;
 }
 
 #navbar{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding-top:5px;
     padding-left: 30px;
     padding-top: 34px;
+    padding-right: 50px;
 }
 
 nav .logo{
@@ -116,7 +117,7 @@ nav ul li a{
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    line-height: 10px;
+    line-height: 50px;
     margin-bottom: 25px;
 	text-transform: capitalize;
     margin-left: 15%;
@@ -132,5 +133,14 @@ nav ul li a{
 }
 
 
-
+.quote{
+    color:var(--white);
+    position: relative;
+	margin-top: 100px;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 100px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
 
