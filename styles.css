@@ -187,3 +187,16 @@ ul li ul li a {
     text-align: center;
 }
 
+.features{
+    padding: 100px 0px;
+    width: 100%;
+    position: relative;
+
+}
+
+.features h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size:1em;
+    color: var(--black);
+
+}
