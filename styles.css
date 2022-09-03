@@ -209,15 +209,14 @@ ul li ul li a {
     line-height:2em;
 }
 
+
 .column{
     float: left;
     width: 25%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0px 20px;
+
 }
- 
-
-
 
 
 
