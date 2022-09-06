@@ -234,5 +234,33 @@ ul li ul li a {
 
 }
 
+.Register{
+    background: linear-gradient(116.82deg, #192586 45.64%, #C6CBEC 100%);
+
+}
+
+.Register h2{
+    font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+    color:var(--white);
+    text-align:center;
+    font-weight: 400;
+
+}
+
+.Register h3{
+    font-size:2em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--white);
+    line-height: 1.5em;
+}
+
+
+
+
 
 
