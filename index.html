@@ -91,17 +91,44 @@
         <h2>REGISTER NOW</h2>
         <h3>Taking in applications for the September Cohort</h3>
         <div class="container">
-            <form id="form">
+            <form method="post" >
                 <div class="fields">
-                    <input type="text" class="user_input" placeholder="Name">
-                    <input type="text" class="user_input" placeholder="Email-Id">
-                    <input type="text" class="user_input" placeholder="Name of the Institute">
-                    <input type="text" class="user_input" placeholder="Qualification (Degree+Semester)">
-                    <input type="text" class="user_input" placeholder="Linkedin Profile">
-                    <input type="text" class="user_input" placeholder="How did you get to know about us?">
-                    <input type="text" class="user_input" placeholder="Additional file">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Name</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Email-Id</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Name of the Institute</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Qualification (Degree+Semester)</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Linkedin Profile</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>How did you get to know about us?</label>
+                </div>
+                <div class="fields">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Additional file</label>
                 </div>
             </form>
+                   
         </div>
         <div class="button">
             <button type="submit" form="form" value="Submit">Submit Application</button>

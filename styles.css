@@ -256,6 +256,64 @@ ul li ul li a {
     line-height: 1.5em;
 }
 
+.center form{
+    padding: 0 40px ;
+    box-sizing: border-box;
+    
+
+}
+
+form .fields{
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    max-width: 300px;
+    margin: 30px 50px;
+    
+}
+
+.fields input{
+    width: 100%;
+    padding: 0 1px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: var(--white);
+}
+
+.fields label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.fields span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+}
+
+.fields input:focus ~ label,
+.fields input:valid ~ label{
+  top: -5px;
+ 
+}
+.fields input:focus ~ span::before,
+.fields input:valid ~ span::before{
+  width: 100%;
+}
+
+
 
 
 
