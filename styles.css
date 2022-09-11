@@ -257,23 +257,22 @@ ul li ul li a {
 }
 
 .center form{
-    padding: 0 40px ;
+    padding: 0 50px ;
     box-sizing: border-box;
-    
-
 }
 
 form .fields{
     position: relative;
-    border-bottom: 1px solid #adadad;
+    border-bottom: 1px solid #ebe3e3;
     max-width: 300px;
-    margin: 30px 50px;
+    margin: 30px 100px 20px;
+    margin-top: 25px;
     
 }
 
 .fields input{
     width: 100%;
-    padding: 0 1px;
+    padding:  0 10px;
     height: 40px;
     font-size: 16px;
     border: none;
@@ -286,11 +285,12 @@ form .fields{
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #adadad;
+    color: #dbd7d7;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
+    padding:5px;
 }
 
 .fields span::before{
@@ -314,8 +314,44 @@ form .fields{
 }
 
 
+input[type="submit"]{
+    width:200px;
+    height: 30px;
+    border: 1px solid;
+    background:var(--white);
+    border-radius: 25px;
+    font-size: 18px;
+    color:var(--black);
+    margin-left:11%;
+    cursor: pointer;
+    outline: none;
+}
 
+.side-card{
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    width: 388px;
+    height: 300px;
+    margin-left: 25%;
+    padding: .5rem;
+    background: #FFFFFF;
+    box-shadow: 18px 4px 37px #6770B4;
+    border-radius: 34px;
+    line-height: 2;
+    
+}
 
+.side-card h4{
+    text-align: center;
 
+}
+
+.tracks{
+    position:relative;
+    left: 700px;
+    bottom:400px;
+    width: 200px;
+    height: 120px;
+}
 
 
