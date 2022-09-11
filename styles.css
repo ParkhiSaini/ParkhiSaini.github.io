@@ -212,23 +212,53 @@ ul li ul li a {
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 350px 350px;
     grid-auto-rows: auto;
-    grid-gap: 1rem;
-         
+    align-items: stretch;
+    justify-content: center;
 }         
 .card {
     border: 2px solid #e7e7e7;
     border-radius: 4px;
-    width: 388px;
+    width: 320px;
     height: 344px;
-    margin-left: 25%;
     padding: .5rem;
     background: #FFFFFF;
     box-shadow: 18px 4px 37px #6770B4;
     border-radius: 34px;
     text-align: center;
-    line-height: 2;
+    line-height: 2;    
+    margin-top: 7%;
+}
+
+.card h3{
+    font-weight: 50;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card h4{
+    font-weight: 10;
+    font-size: 1.2em;
+    margin-top: 25%;
+}
+
+.card h5{
+    font-weight: 10;
+    font-size: 1.2em;
+    margin-top: 7%;
+}
+
+.card h6{
+    font-weight: 10;
+    font-size: 1.2em;
+    margin-top: 15%;
+}
+
+.card h2{
+    font-weight: 10;
+    font-size: 1.5em;
+    margin-top: 25%;
 }
 
 .Register{
