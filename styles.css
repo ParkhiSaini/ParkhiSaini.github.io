@@ -345,7 +345,7 @@ form .fields{
 }
 
 
-input[type="submit"]{
+.button button{
     width:200px;
     height: 30px;
     border: 1px solid;
@@ -384,7 +384,78 @@ input[type="submit"]{
     width: 200px;
     height: 120px;
 }
+.vid video {
+    position: relative;
+    min-width: 150vh;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+       margin-top: 5%;
+       margin-left: 13%;
+       z-index: 0;
+       opacity: 80%;
 
+  }
 
+.overlay-text{
+    position: absolute;
+    z-index: 1;
+    margin-top: -23%;
+    margin-left: 36%;
+    font-family: 'Bebas Neue', cursive;
+    font-size:3em;
+    color: var(--white);
+    text-shadow: 2px 2px #ff0000;
+}
 
+.overlay-btn{
+    position: absolute;
+    z-index: 1;
+    margin-top: -5%;
+    margin-left:44%;
+}
 
+.btn {
+    background: #FFFFFF;
+    border: 2px solid #e7e7e7;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color:var(--black);
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #E2E2E2;
+    text-decoration: none;
+  }
+  .footer {
+    margin-top: 4%;
+    background: #2030ac;
+    padding: 50px 0 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #EAF6F6;
+    text-align: center;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+}
