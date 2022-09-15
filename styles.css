@@ -44,6 +44,7 @@ font-family: 'Roboto', sans-serif;
     padding-right: 50px;
     
 }
+
 .navbar ul li {
     list-style: none;
     display: inline-block;
@@ -353,5 +354,7 @@ input[type="submit"]{
     width: 200px;
     height: 120px;
 }
+
+
 
 
